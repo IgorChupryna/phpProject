@@ -1,4 +1,5 @@
 <?php
+
 $header = $config["header"];
 
 echo "<ul>\n";
