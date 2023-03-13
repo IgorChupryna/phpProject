@@ -32,7 +32,7 @@ echo $s_var;
 echo "<br>";
 echo $a_var[0]." ".$a_var[1];
 echo "<br>";
-echo $n_var;
+echo $o_var;
 echo "<br>";
 
 var_dump($i_var);
