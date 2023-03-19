@@ -61,10 +61,11 @@ echo "<br>";
 for ($i = 0; $i < 10; $i++) {
     echo counter();
 }
-
+echo '<br>';
 print_r(creArr(3, 1, 2, 3, 4));
+echo '<br>';
 var_dump(creArr(3, 1, 2, 3, 4));
-
+echo '<br>';
 
 echo sumArr([1, 2, 4, 8]);
 
