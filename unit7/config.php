@@ -28,16 +28,12 @@ $config = array(
     "header" => array(
         "menu" => array(
             array(
-            "title" => "Unit 1. Variables",
+            "title" => "More info...",
             "link" => "./info.php"
             ),
             array(
-                "title" => "Unit 2. Arrays",
+                "title" => "More desc...",
                 "link" => "./desc.php"
-            ),
-            array(
-                "title" => "Unit 3. Functions",
-                "link" => "./functions.php"
             ),
 
         )
