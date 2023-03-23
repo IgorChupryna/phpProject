@@ -39,18 +39,7 @@ $config = array(
                 "title" => "Unit 3. Functions",
                 "link" => "./functions.php"
             ),
-            array(
-                "title" => "Form. Email",
-                "link" => "./form/formEmail.php"
-            ),
-            array(
-                "title" => "Form. Login",
-                "link" => "./form/formLogin.php"
-            ),
-            array(
-                "title" => "Parse. url",
-                "link" => "./parseUrl.php"
-            ),
+
         )
     ),
 
