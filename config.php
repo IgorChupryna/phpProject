@@ -21,15 +21,15 @@ $YEAR = date("Y");
 
 $url = "https://baconipsum.com/api/?type=all-meat&paras=3&start-with-lorem=1";
 
-$content = file_get_contents($url);
+//$content = file_get_contents($url);
 
 
 $config = array(
     "header" => array(
         "menu" => array(
             array(
-            "title" => "Unit 1. Variables",
-            "link" => "./info.php"
+                "title" => "Unit 1. Variables",
+                "link" => "./info.php"
             ),
             array(
                 "title" => "Unit 2. Arrays",
@@ -50,6 +50,24 @@ $config = array(
             array(
                 "title" => "Parse. url",
                 "link" => "./parseUrl.php"
+            ),
+            array(
+                "title" => "File. upload_1",
+                "link" => "./upload/file_upload.php"
+            ),
+            array(
+                "title" => "File. upload_2",
+                "link" => "./upload/file_upload_2.php"
+            ),
+            array(
+                "title" => "String. func",
+                "link" => "./string_func/functions.php"
+            ), array(
+                "title" => "String. func_2",
+                "link" => "./string_func/string_2.php"
+            ), array(
+                "title" => "String. func_3",
+                "link" => "./string_func/string_3.php"
             ),
         )
     ),

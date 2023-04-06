@@ -1,3 +1,3 @@
 <?php
 
-echo '<div>'.$content.'</div>';
+//echo '<div>'.$content.'</div>';
