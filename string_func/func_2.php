@@ -29,11 +29,14 @@ function showAndGetUnserializableArr(string $unArr): mixed
     return unserialize($unArr);
 }
 
-function showVerticalStr(string $str):void
+function showVerticalStr(string $str): void
 {
-    if (empty($str)) echo "Empty string";
+    if (empty($str)) {
+        echo "Empty string";
+        exit -1;
+    }
 
-    for ($i=0;$i<strlen($str);$i++){
-        echo $str[$i]."<br>";
+    for ($i = 0; $i < strlen($str); $i++) {
+        echo $str[$i] . "<br>";
     }
 }
